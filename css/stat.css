@@ -1,0 +1,13 @@
+#stat, #stat > div{
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#stat{
+    float: right;
+    width: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #cecece;
+}

@@ -1,0 +1,84 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Demo</title>
+        <link href="css/canvas.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="css/controls.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="css/stat.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="css/common.css" media="all" rel="stylesheet" type="text/css"/>
+        <script language="javascript" src="/js/jquery181min.js" type="text/javascript"></script>
+        <script language="javascript" src="js/jquery.hotkeys.js" type="text/javascript"></script>
+        <script language="javascript" src="js/res.js" type="text/javascript"></script>
+        <script language="javascript" src="js/key_status.js" type="text/javascript"></script>
+        <script language="javascript" src="js/util.js" type="text/javascript"></script>
+        <script language="javascript" src="js/sprite.js" type="text/javascript"></script>
+        <script language="javascript" src="js/sound.js" type="text/javascript"></script>
+        <script language="javascript" src="js/player.js" type="text/javascript"></script>
+        <script language="javascript" src="js/enemy_controller.js" type="text/javascript"></script>
+        <script language="javascript" src="js/enemy.js" type="text/javascript"></script>
+        <script language="javascript" src="js/bullet.js" type="text/javascript"></script>
+        <script language="javascript" src="js/game.js" type="text/javascript"></script>
+        <script language="javascript" src="js/stat.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="pause" class="control">pause</div>
+        <!--<div id="restart" class="control">restart</div>-->
+        <div id ="stat">
+            <div id="waveCount" class="gameStat">
+                <span class="caption">Wave #</span>
+                <span class="value"></span>
+            </div>
+            <div id="score" class="gameStat">
+                <span class="caption">Score: </span>
+                <span class="value"></span>
+            </div>
+            <div id="bullet" class="gameStat">
+                <span class="caption">Bullets fired: </span>
+                <span class="value"></span>
+            </div>
+            <div id="hit" class="gameStat">
+                <span class="caption">Bullets hit: </span>
+                <span class="value"></span>
+            </div>
+            <div id="accuracy" class="gameStat">
+                <span class="caption">Accuracy: </span>
+                <span class="value"></span>
+                
+            </div>
+            <hr />
+            <div id="lives" class="playerStat">
+                <span class="caption">Player lives: </span>
+                <span class="value"></span>
+            </div>
+            <div id="lvl" class="playerStat">
+                <span class="caption">Player level: </span>
+                <span class="value"></span>
+            </div>
+            <div id="exp" class="playerStat">
+                <span class="caption">Player exp: </span>
+                <span class="value"></span>
+            </div>
+            <div id="nextLvl" class="playerStat">
+                <span class="caption">Next level: </span>
+                <span class="value"></span>
+            </div>
+            <div id="speed" class="playerStat">
+                <span class="caption">Player max speed: </span>
+                <span class="value"></span>
+            </div>
+            <div id="rtime" class="playerStat">
+                <span class="caption">Player reload speed: </span>
+                <span class="value"></span>
+            </div>
+            <div id="bspeed" class="playerStat">
+                <span class="caption">Bullet speed: </span>
+                <span class="value"></span>
+            </div>
+        </div>
+        
+    </body>
+    <script language="javascript" type="text/javascript">
+        new Game();
+    </script>
+</html>

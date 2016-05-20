@@ -1,0 +1,6 @@
+.control{
+    cursor: pointer;
+    border: 1px solid;
+    padding: 10px;
+    display: inline-block;
+}
